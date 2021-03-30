@@ -90,13 +90,13 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #f4623a;
+    color: #35c5ea ;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #35c5ea ;
   }
 }
 
@@ -311,6 +311,32 @@ a:hover{
 .contact-link a{
   color: #043a5d !important;
   text-decoration: underline;
+}
+.footer-sm {
+  background-color: black;
+  padding: 14px 10%;
+  text-align: center;
+}
+
+.footer-icon {
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5p;
+}
+
+.footer-sm-l {
+  color: #707070;
+  text-align: center !important;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-icon {
+      width: 20px;
+  }
+  .footer-sm-l {
+      font-size: 10px;
+  }
 }
 @media (max-width: 991.98px){
   .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
